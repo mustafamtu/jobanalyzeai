@@ -1,0 +1,8 @@
+Ben mustafa mutlu 19 yaşındayım istanbul aydın üniversitesinde 
+ikinci sınıf yönetim bilişim sistemleri öğrencisiyim 
+yeteneklerim:
+python
+langchain
+llm
+rag
+
