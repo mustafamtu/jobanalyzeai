@@ -35,15 +35,14 @@ metin = f"""
         'Puan': '?'
 """
 
-prompt = ChatPromptTemplate.from_messages(
-    ("system", "{metin}."),
-    ("human", "{ilan}", "{cv}")
-)
+prompt = ChatPromptTemplate.from_messages([
+    ("system", metin),
+    ("human", "İlan \n{ilan},\n {cv}")
+])
 
 chain = prompt | LLM
 
 cevap = chain.invoke(
-    {"ilan": ilan_metni},
-    {"cv": cv_metni}
+    {"ilan": ilan_metni, "cv": cv_metni}
 )
 print(cevap)
