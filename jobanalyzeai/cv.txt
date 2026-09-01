@@ -1,8 +1,33 @@
-Ben mustafa mutlu 19 yaşındayım istanbul aydın üniversitesinde 
-ikinci sınıf yönetim bilişim sistemleri öğrencisiyim 
-yeteneklerim:
-python
-langchain
-llm
-rag
-
+MUSTAFA MUTLU
+Yapay Zeka Mühendis Adayı
+(LLM & Agentic AI / Python Backend)
+Job Analyzer AI
+Google Gemini API, LangChain LCEL ve Pydantic kullanarak aday profilleri ile iş ilanlarını anlamsal olarak karşılaştıran
+uçtan uca analiz sistemi geliştirildi.
+JSON şema doğrulama mimarisiyle çıktı sapmalarını (hallucination) engelleyen, yapılandırılmış veri entegrasyonu
+sağlandı.
+TradingBot
+Python Asyncio tabanlı yüksek eşzamanlı mimari ile piyasa verilerini milisaniye seviyesinde tarayan ve
+RSI/MACD teknik göstergelerini hesaplayan analiz motoru kuruldu.
+Telegram webhook entegrasyonu ile otomatik alım-satım ve alarm tetikleme döngüsü inşa edildi.
++90 530 410 58 44
+mustafamtu@icloud.com
+github.com/mustafamtu
+İstanbul Aydın Üniversitesi 2025 - Günümüz (2. Sınıf)
+Yönetim Bilişim Sistemleri
+SERTİFİKALAR
+BTK Akademi (2026)
+Python Programlama Dili
+Kod Atölyem (2026)
+LangChain, RAG ve LLM ile Yapay Zeka Geliştirme
+YABANCI DİL
+İngilizce (B2)
+YETKİNLİKLER
+RAG (Retrieval-Augmented
+Generation)
+Python
+Yapay Zeka
+LLM Entegrasyonları
+(Gemini / OpenAI API)
+LangChain
+Prompt Mühendisliği
