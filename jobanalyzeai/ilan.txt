@@ -1,107 +1,24 @@
-İş Tanımı
-Fabrikod bünyesinde oluşturduğumuz AI ekibinde görev almak üzere; Computer Vision, OCR, RAG, LLM, VLM ve açık kaynaklı yapay zeka modelleri alanlarında kendisini aktif olarak geliştiren, araştıran ve üreten bir Yapay Zeka Uzun Dönem Stajyeri arıyoruz.
+We're hiring!
 
-Bu uzun dönem staj programında adayların minimum 6 ay boyunca ve haftanın büyük bölümünde ekibimizle birlikte çalışabilecek olması beklenmektedir. 
+SmartSites is looking for exceptional talent to join our team in Istanbul. We're building production-grade AI systems for construction intelligence — taking real-world site footage and turning it into actionable insights.
 
+**AI & Computer Vision Engineer/Intern**
+Own our perception pipeline: 3D reconstruction, multi-object tracking, action recognition, and real-time inference on edge devices. If you've shipped production CV code, understand the gap between research and deployment, and want to solve genuine construction problems — we want to talk.
 
+Tech: PyTorch, YOLO
 
-Aradığımız adayın yapay zeka alanına yalnızca ilgi duyması yeterli değildir. Başvuru öncesinde bu alanlarda kendi araştırmalarını yapmış, teknik içerikler ve akademik çalışmaları takip etmiş, modeller denemiş ve somut bir portföy oluşturmuş olmasını bekliyoruz.
+**Civil Engineering Engineer/Intern**
+Translate construction domain knowledge into AI requirements. Map structural tolerances to inspection rules, integrate BIM workflows, define SOV/progress logic, and help us build systems that construction teams actually trust.
 
-Bu pozisyon, yapay zekaya ilk kez staj sırasında başlayacak adaylardan ziyade; halihazırda kendi imkanlarıyla öğrenmeye başlamış, GitHub projeleri geliştirmiş, akademik veya bireysel çalışmalar yapmış ve bu alanda kariyer hedefleyen adaylar için tasarlanmıştır.
+Background: BIM (Revit, IFC), Project Controls (EVA, Primavera), ACI/AISC standards
 
-Staj süresince açık kaynaklı LLM, VLM, OCR ve Computer Vision modellerinin kendi on-premise GPU altyapımız üzerinde kurulması, çalıştırılması, test edilmesi, optimize edilmesi ve ihtiyaçlarımıza göre özelleştirilmesi süreçlerinde aktif olarak görev alacaksınız.
+📍 Istanbul (Remote-first, occasional office visits)
+💼 Paid internship + performance-based conversion to full-time
 
-Fabrikod yazılım ve AI ekiplerinin yanı sıra, akademisyenler ve alanında uzman kişilerle birlikte çalışma, teknik geri bildirim alma ve kendinizi geliştirme fırsatı bulacaksınız. Yapay zeka alanında kariyerini derinleştirmek isteyen adaylar için bu programı yalnızca bir staj değil; gerçek projeler, güçlü teknik mentorluk ve araştırma disipliniyle gelişebilecekleri önemli bir kariyer fırsatı olarak görüyoruz.
+Work on problems that directly impact how construction gets built
 
-Temel Sorumluluklar
-Computer Vision ve OCR projelerinde veri hazırlama, model geliştirme, test ve değerlendirme süreçlerinde aktif görev almak.
-OCR çıktıları ve farklı veri kaynakları kullanılarak geliştirilen RAG sistemlerinin oluşturulmasına katkı sağlamak.
-Açık kaynaklı LLM, VLM, OCR ve Computer Vision modellerini yerel GPU altyapısında kurmak, çalıştırmak ve test etmek.
-Model inference, fine-tuning, quantization ve performans optimizasyonu çalışmalarına destek olmak.
-Hugging Face ve benzeri açık kaynak ekosistemlerindeki modelleri araştırmak, karşılaştırmak ve uygun modeller üzerinde deneyler gerçekleştirmek.
-Model doğruluğu, inference süresi, VRAM kullanımı ve diğer performans metriklerini ölçmek ve dokümante etmek.
-Milvus, Qdrant, Chroma veya benzeri vektör veritabanlarıyla gerçekleştirilen embedding, indexing ve retrieval çalışmalarına katkıda bulunmak.
-Görüntü, metin, OCR, arama ve doğrulama modellerinin birlikte kullanıldığı AI iş akışlarının geliştirilmesinde görev almak.
-Veri setlerinin hazırlanması, temizlenmesi, etiketlenmesi ve değerlendirilmesi süreçlerine katkı sağlamak.
-Yapılan deneyleri, kullanılan modelleri, başarılı ve başarısız yaklaşımları teknik olarak dokümante etmek.
-Yapay zeka alanındaki güncel araştırmaları, açık kaynak modelleri ve teknolojileri takip ederek ekip içerisinde paylaşmak.
-Aranan Nitelikler
-Bilgisayar Mühendisliği, Yazılım Mühendisliği, Yapay Zeka Mühendisliği, Elektrik-Elektronik Mühendisliği, Matematik veya ilgili bölümlerde lisans ya da yüksek lisans öğrencisi olmak.
-Minimum 6 ay boyunca ve haftanın büyük bölümünde ekibimizle aktif olarak çalışabilecek olmak.
-Python programlama dilinde temel veya orta seviye yetkinliğe sahip olmak.
-Machine Learning ve Deep Learning konularında temel bilgi sahibi olmak.
-PyTorch, TensorFlow veya benzeri AI framework’lerinden en az biriyle proje, ders, araştırma veya bireysel çalışma kapsamında deneyim sahibi olmak.
-Computer Vision, OCR, RAG, LLM, VLM, NLP veya doküman işleme alanlarından en az birinde kendi araştırmasını yapmış ve uygulamalı çalışmalar gerçekleştirmiş olmak.
-Açık kaynaklı modelleri araştırmış, indirip çalıştırmış veya bunlarla deneyler yapmış olmak.
-Git ve temel yazılım geliştirme süreçleri hakkında bilgi sahibi olmak.
-Linux ortamında çalışmaya istekli olmak.
-Teknik dokümantasyon ve akademik kaynakları takip edebilecek seviyede İngilizce bilgisine sahip olmak.
-Araştırma yapmayı, problem çözmeyi ve yeni teknolojileri kendi başına öğrenmeyi alışkanlık haline getirmiş olmak.
-Takım çalışmasına yatkın, sorumluluk sahibi ve iletişim becerileri güçlü olmak.
-Portföy Beklentimiz
-Bu pozisyona başvuracak adayların somut bir portföye sahip olmasını bekliyoruz.
+If you're interested or want to know more, apply here: **hr@smartsitescons.com**
 
-Portföyünüz profesyonel bir iş deneyiminden oluşmak zorunda değildir. Aşağıdakilerden biri veya birkaçı değerlendirilebilir:
+Full details: smartsitescons.com/careers
 
-GitHub üzerinde geliştirdiğiniz AI / Machine Learning projeleri,
-Bitirme veya dönem projeleri,
-Kaggle çalışmaları,
-Teknofest, hackathon veya yarışma projeleri,
-Akademik araştırmalar,
-Bireysel olarak geliştirdiğiniz Computer Vision, OCR, RAG, LLM veya VLM uygulamaları,
-Bir akademik makaleyi veya açık kaynaklı projeyi yeniden uyguladığınız çalışmalar,
-Açık kaynaklı bir modeli kendi bilgisayarınızda veya GPU üzerinde çalıştırdığınız deneyler,
-Fine-tuning, LoRA / QLoRA, quantization veya model optimizasyonu üzerine yaptığınız çalışmalar.
-Buradaki temel beklentimiz, adayın “Bu alanla ilgileniyorum” demesinin ötesine geçmiş ve bu ilgisini somut çalışmalarla göstermiş olmasıdır.
-
-Henüz herhangi bir proje geliştirmemiş, bu alanlarda teknik araştırma yapmamış veya kendi başına öğrenme sürecine başlamamış adaylar için bu pozisyon uygun olmayacaktır.
-
-Biz, staj süresince yapay zekayı sıfırdan öğretmekten ziyade; temellerini kendi çabasıyla oluşturmuş, merak eden, araştıran, deneyen ve kendisini sürekli geliştiren bir ekip arkadaşını daha ileri bir seviyeye taşımayı hedefliyoruz.
-
-Tercih Sebebi Olabilecek Deneyimler
-Hugging Face üzerinden açık kaynaklı bir modeli indirip yerel ortamda çalıştırmış olmak.
-LLM, VLM, OCR veya Computer Vision alanında bireysel veya akademik proje geliştirmiş olmak.
-RAG, embedding modelleri, reranking veya vektör veritabanlarıyla çalışmış olmak.
-LangChain, LangGraph, LlamaIndex veya Haystack gibi araçları kullanmış olmak.
-YOLO, PaddleOCR, Tesseract, DocTR, LayoutLM, Donut veya benzeri teknolojilerle çalışmış olmak.
-CUDA destekli GPU üzerinde model çalıştırmış olmak.
-Fine-tuning, LoRA / QLoRA, quantization veya model optimizasyonu konusunda deneyler gerçekleştirmiş olmak.
-Türkçe OCR, doküman analizi, tablo, form veya taranmış belgeler üzerinde çalışmış olmak.
-Docker, MLflow, DVC veya benzeri MLOps araçlarıyla çalışmış olmak.
-Akademik makaleleri takip etmek veya makalelerdeki yaklaşımları uygulamaya çalışmış olmak.
-Fabrikod’da Sizi Neler Bekliyor?
-Türkiye’nin en büyük ölçekli kamu AI projelerinden birinde gerçek proje deneyimi kazanma fırsatı.
-Computer Vision, OCR, RAG, LLM ve VLM teknolojilerini gerçek sektör problemleri üzerinde uygulama imkanı.
-Fabrikod AI ekibinin kuruluş ve teknik altyapı geliştirme süreçlerine doğrudan dahil olma fırsatı.
-Kendi GPU altyapımız üzerinde açık kaynaklı modelleri kurma, çalıştırma, test etme, eğitme ve optimize etme deneyimi.
-Deneysel veya eğitim amaçlı örneklerin ötesinde, gerçek kullanıcıların ve kurumların ihtiyaçlarına yönelik sistemlerde çalışma imkanı.
-Akademisyenler ve alanında uzman kişilerle birlikte çalışma, teknik geri bildirim alma ve kendinizi hızla geliştirme fırsatı.
-Güncel akademik çalışmalarla gerçek üretim ihtiyaçlarını bir arada görme imkanı.
-Model geliştirme, veri hazırlama, inference, RAG, Computer Vision ve OCR süreçlerini uçtan uca deneyimleme fırsatı.
-Teknik araştırma yapabileceğiniz, farklı modelleri deneyebileceğiniz ve öğrendiklerinizi gerçek projelerde uygulayabileceğiniz bir çalışma ortamı.
-Başarılı stajyerlerin, ekip ihtiyaçları ve performans değerlendirmesi doğrultusunda Fabrikod bünyesindeki kariyer fırsatlarında değerlendirilme imkanı.
-Kimleri Arıyoruz?
-Bu programa yalnızca CV’sine bir staj deneyimi eklemek isteyen adaylardan ziyade, yapay zeka alanında gerçekten uzmanlaşmak isteyen kişilerin başvurmasını bekliyoruz.
-
-Kendi başınıza araştırma yapıyorsanız, GitHub’da projeler geliştiriyorsanız, yeni çıkan modelleri deniyorsanız, akademik makaleleri ve teknik içerikleri takip ediyor ve sürekli olarak “Bunu nasıl çalıştırırım, nasıl geliştiririm, nasıl daha iyi hale getiririm?” diye düşünüyorsanız sizi tanımak isteriz.
-
-Bu stajın karşılığında adaydan da ciddi bir zaman ve öğrenme yatırımı bekliyoruz. Bu nedenle haftada yalnızca bir veya iki gün ayırabilecek adaylardan ziyade, haftanın büyük bölümünde Fabrikod AI ekibiyle birlikte çalışabilecek adayları değerlendireceğiz.
-
-Başvuru Süreci
-Başvurular LinkedIn üzerinden gerçekleştirilecektir.
-
-Başvurunuz sırasında göndereceğiniz CV'nizin içerisinde GitHub profilinizi, portföyünüzü veya daha önce gerçekleştirdiğiniz teknik çalışmaları paylaşmanızı bekliyoruz.
-
-Computer Vision, OCR, RAG, LLM, VLM, Machine Learning veya Deep Learning alanlarında geliştirdiğiniz projelerin kısa açıklamalarını ve bu projelerde hangi çalışmaları doğrudan sizin gerçekleştirdiğinizi belirtmenizi rica ediyoruz.
-
-Profesyonel iş deneyimi aramıyoruz. Ancak araştırma yapmış, üretmiş, denemiş ve bu alanda kendisini geliştirmek için halihazırda emek vermiş olmanızı bekliyoruz.
-
-
-
-Pozisyon: Yapay Zeka Uzun Dönem Stajyeri
-
-Staj Süresi: Minimum 6 Ay
-
-Çalışma Şekli: Uzun Dönem Staj / Hibrit – Haftanın büyük bölümünde aktif çalışma, belirli günlerde Üsküdar ofis
-
-Departman: Fabrikod AI
+We're looking for builders, not benchmarkers. If that's you, let's talk.

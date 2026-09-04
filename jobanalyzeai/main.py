@@ -4,15 +4,21 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-LLM = GoogleGenerativeAI(model="gemini-2.5-flash")
-
 with open("ilan.txt","r",encoding="utf-8") as ilan:
     ilan_metni = ilan.read()
     ilan.close()
 
+if ilan_metni.strip() == (""):
+    raise Exception("İlan Metni Bulunamadı.")
+
 with open("cv.txt","r",encoding="utf-8") as cv:
     cv_metni = cv.read()
     cv.close()
+
+if cv_metni.strip() == (""):
+    raise Exception("CV Metni Bulunamadı.")
+
+LLM = GoogleGenerativeAI(model="gemini-2.5-flash")
 
 metin = f"""
     Sen bir kariyer uzmanısın işin sana gelen ilan metnini detaylıca okumak 
