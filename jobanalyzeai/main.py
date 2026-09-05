@@ -6,14 +6,13 @@ load_dotenv()
 
 with open("ilan.txt","r",encoding="utf-8") as ilan:
     ilan_metni = ilan.read()
-    ilan.close()
+
 
 if ilan_metni.strip() == (""):
     raise Exception("İlan Metni Bulunamadı.")
 
 with open("cv.txt","r",encoding="utf-8") as cv:
     cv_metni = cv.read()
-    cv.close()
 
 if cv_metni.strip() == (""):
     raise Exception("CV Metni Bulunamadı.")
