@@ -1,6 +1,10 @@
 from dotenv import load_dotenv
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_community.chat_message_histories import SQLChatMessageHistory
+from langchain_core.chat_history import BaseChatMessageHistory
+
+
 
 load_dotenv()
 
@@ -18,6 +22,12 @@ if cv_metni.strip() == (""):
     raise Exception("CV Metni Bulunamadı.")
 
 LLM = GoogleGenerativeAI(model="gemini-2.5-flash")
+
+def get_session_history(session_id: str) -> BaseChatMessageHistory:
+    return SQLChatMessageHistory(
+        session_id=session_id,
+        connection="sqlite:///history.db",
+    )
 
 metin = f"""
     Sen bir kariyer uzmanısın işin sana gelen ilan metnini detaylıca okumak 
