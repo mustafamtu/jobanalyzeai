@@ -1,24 +1,91 @@
-We're hiring!
+AI Engineering Intern
+United States
+Internship
+Remote
+Intern
+86%
+STRONG MATCH
+Experience Level
+87%
+Skill
+63%
+Education Match
+36%
+Pindrop is an identity trust and security platform focused on real-time identity verification and deepfake detection across voice, video, and digital interactions. The AI Engineering Intern will apply generative AI to improve internal operations and engineering productivity by building AI agents, RAG pipelines, and automated workflows while collaborating with senior engineers and cross-functional teams.
+Cyber Security
+Property & Casualty Insurance
+Artificial Intelligence (AI)
+Fraud Detection
+Natural Language Processing
+Security
+Speech Recognition
+Comp. & Benefits
+H1B Sponsor Likely
+Insider Connection @Pindrop
+2 email credits available today
+Discover valuable connections within the company who might provide insights and potential referrals.
+Get 3x more responses when you reach out via email instead of LinkedIn.
+Beyond your network
+C
+Christine Kaszubski Aldrich
+Chief People Officer
+From your previous company
+from your School
+Find Any Email
+Responsibilities
+Explore and build proof-of-concept AI agents to automate complex internal engineering workflows, such as incident analysis or code review summaries
+Develop and optimize Retrieval-Augmented Generation (RAG) pipelines to enable "chat with your data" capabilities for internal technical documentation and runbooks
+Collaborate with cross-functional teams to identify operational bottlenecks and implement AI-driven fixes that improve efficiency and performance
+Test and document the use of emerging AI-assisted coding and monitoring tools to determine their viability for the broader engineering organization
+Participate in security-minded engineering, ensuring that automated workflows follow strict data hygiene and secrets management protocols
+Qualification
+Represents the skills you have
+Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
 
-SmartSites is looking for exceptional talent to join our team in Istanbul. We're building production-grade AI systems for construction intelligence — taking real-world site footage and turning it into actionable insights.
-
-**AI & Computer Vision Engineer/Intern**
-Own our perception pipeline: 3D reconstruction, multi-object tracking, action recognition, and real-time inference on edge devices. If you've shipped production CV code, understand the gap between research and deployment, and want to solve genuine construction problems — we want to talk.
-
-Tech: PyTorch, YOLO
-
-**Civil Engineering Engineer/Intern**
-Translate construction domain knowledge into AI requirements. Map structural tolerances to inspection rules, integrate BIM workflows, define SOV/progress logic, and help us build systems that construction teams actually trust.
-
-Background: BIM (Revit, IFC), Project Controls (EVA, Primavera), ACI/AISC standards
-
-📍 Istanbul (Remote-first, occasional office visits)
-💼 Paid internship + performance-based conversion to full-time
-
-Work on problems that directly impact how construction gets built
-
-If you're interested or want to know more, apply here: **hr@smartsitescons.com**
-
-Full details: smartsitescons.com/careers
-
-We're looking for builders, not benchmarkers. If that's you, let's talk.
+Python
+Artificial Intelligence and Machine Learning
+Large Language Models (LLMs)
+Prompt Engineering
+Git
+Retrieval-Augmented Generation (RAG)
+Vector Databases
+AWS
+Google Cloud Platform (GCP)
+CI/CD
+Docker
+Required
+Pursuing a Bachelor's or Master's degree in Computer Science, Artificial Intelligence, or a related technical field
+Knowledge of Python for automation and data processing
+Demonstrated interest or project experience in AI/ML, specifically involving Large Language Models (LLMs) and prompt engineering
+Familiarity with Git workflows
+Preferred
+Hands-on experience building small ML pipelines or experimenting with vector databases and RAG frameworks
+Foundational experience with AWS or GCP services (e.g., Lambda, S3, or SageMaker)
+Exposure to CI/CD concepts or infrastructure-as-code (e.g., GitHub Actions, Docker)
+Benefits
+Hands-on experience in a modern environment
+Work alongside technical experts in security, AI, and voice intelligence
+Remote work
+Company
+Pindrop
+twitter
+linkedin
+crunchbase
+Glassdoor
+3.9
+company-logo
+Pindrop uses AI-based IVR authentication and anti-fraud solutions to increase efficiency in call centers and stop fraudulent transactions.
+Founded in 2011
+Atlanta, Georgia, USA
+201-500 employees
+http://pindrop.com
+H1B Sponsorship
+Pindrop has a track record of offering H1B sponsorships. Please note that this does not guarantee sponsorship for this specific role. Below presents additional info for your reference. (Data Powered by US Department of Labor)
+Distribution of Different Job Fields Receiving Sponsorship
+89%
+Represents job field similar to this job
+Engineering and Development
+Product Management
+Customer Service and Support
+Marketing
+Trends o

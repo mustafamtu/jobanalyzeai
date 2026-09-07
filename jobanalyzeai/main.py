@@ -1,9 +1,13 @@
 from dotenv import load_dotenv
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_community.chat_message_histories import SQLChatMessageHistory
-from langchain_core.chat_history import BaseChatMessageHistory
+from pydantic import BaseModel, Field
+from langchain_core.output_parsers import JsonOutputParser
+import sqlite3
 
+# Öncelikle bir sql database açmalıyım 
+# bu databaseye bağlanmalıyım .connect() 
+# llm cevabı döndürdükten sonra bana dönen değerleri bu databaseye kaydetmeli
 
 
 load_dotenv()
@@ -23,11 +27,7 @@ if cv_metni.strip() == (""):
 
 LLM = GoogleGenerativeAI(model="gemini-2.5-flash")
 
-def get_session_history(session_id: str) -> BaseChatMessageHistory:
-    return SQLChatMessageHistory(
-        session_id=session_id,
-        connection="sqlite:///history.db",
-    )
+
 
 metin = f"""
     Sen bir kariyer uzmanısın işin sana gelen ilan metnini detaylıca okumak 
@@ -52,12 +52,52 @@ metin = f"""
 
 prompt = ChatPromptTemplate.from_messages([
     ("system", metin),
-    ("human", "İlan \n{ilan},\n {cv}")
+    ("human", "İlan \n{ilan},\n {cv},\n {format_instructions}")
 ])
 
-chain = prompt | LLM
+db_file_path = "gecmis.db"
+
+conn = sqlite3.connect(db_file_path)
+cursor = conn.cursor()
+cursor.execute(
+"""
+CREATE TABLE IF NOT EXISTS analizler(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+artiyonler TEXT,
+eksiyonler TEXT,
+puan INTEGER,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+"""
+)
+conn.commit()
+
+
+class Analiz(BaseModel):
+    artiyonler: list[str] = Field(description="Adayın artı yönleri (3 madde)")
+    eksiyonler: list[str] = Field(description="Adayın eksi yönleri (3 madde)")
+    puan: int = Field(description="İlan uyumluluk puanı")
+
+parser = JsonOutputParser(pydantic_object=Analiz)
+
+format_instructions= parser.get_format_instructions()
+
+chain = prompt | LLM | parser
 
 cevap = chain.invoke(
-    {"ilan": ilan_metni, "cv": cv_metni}
+    {"ilan": ilan_metni, "cv": cv_metni, "format_instructions": format_instructions}
 )
 print(cevap)
+
+artilar_metin = "\n".join(cevap["artiyonler"])
+eksiler_metin = "\n".join(cevap["eksiyonler"])
+puan_degeri = cevap["puan"]
+
+cursor.execute(
+    """
+    INSERT INTO analizler (artiyonler, eksiyonler, puan) VALUES (?,?,?)
+    """,
+    (artilar_metin,eksiler_metin,puan_degeri)
+)
+conn.commit()
+conn.close()
