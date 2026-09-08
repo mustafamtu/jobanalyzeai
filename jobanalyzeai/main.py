@@ -5,11 +5,6 @@ from pydantic import BaseModel, Field
 from langchain_core.output_parsers import JsonOutputParser
 import sqlite3
 
-# Öncelikle bir sql database açmalıyım 
-# bu databaseye bağlanmalıyım .connect() 
-# llm cevabı döndürdükten sonra bana dönen değerleri bu databaseye kaydetmeli
-
-
 load_dotenv()
 
 with open("ilan.txt","r",encoding="utf-8") as ilan:
@@ -39,6 +34,9 @@ metin = f"""
 
     örnek:
 
+    Şirket Adı: "Örnek Şirket"
+    Pozisyon: "Örnek Pozisyon"
+
         'Artı Yönler:' +'artı örnek 1'
                        +'artı örnek 2'
                        +'artı örnek 3'
@@ -63,6 +61,8 @@ cursor.execute(
 """
 CREATE TABLE IF NOT EXISTS analizler(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
+sirket TEXT,
+pozisyon TEXT,
 artiyonler TEXT,
 eksiyonler TEXT,
 puan INTEGER,
@@ -74,6 +74,8 @@ conn.commit()
 
 
 class Analiz(BaseModel):
+    sirket: str = Field(description="İlanı yayımlayan şirketin adı")
+    pozisyon: str = Field(description="İlandaki pozisyon")
     artiyonler: list[str] = Field(description="Adayın artı yönleri (3 madde)")
     eksiyonler: list[str] = Field(description="Adayın eksi yönleri (3 madde)")
     puan: int = Field(description="İlan uyumluluk puanı")
@@ -89,15 +91,17 @@ cevap = chain.invoke(
 )
 print(cevap)
 
+sirket_adi = cevap["sirket"]
+pozisyon_tanimi = cevap["pozisyon"]
 artilar_metin = "\n".join(cevap["artiyonler"])
 eksiler_metin = "\n".join(cevap["eksiyonler"])
 puan_degeri = cevap["puan"]
 
 cursor.execute(
     """
-    INSERT INTO analizler (artiyonler, eksiyonler, puan) VALUES (?,?,?)
+    INSERT INTO analizler (sirket,pozisyon,artiyonler, eksiyonler, puan) VALUES (?,?,?,?,?)
     """,
-    (artilar_metin,eksiler_metin,puan_degeri)
+    (sirket_adi,pozisyon_tanimi,artilar_metin,eksiler_metin,puan_degeri)
 )
 conn.commit()
 conn.close()

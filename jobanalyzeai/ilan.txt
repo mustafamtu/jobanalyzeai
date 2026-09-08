@@ -1,91 +1,33 @@
-AI Engineering Intern
-United States
-Internship
-Remote
-Intern
-86%
-STRONG MATCH
-Experience Level
-87%
-Skill
-63%
-Education Match
-36%
-Pindrop is an identity trust and security platform focused on real-time identity verification and deepfake detection across voice, video, and digital interactions. The AI Engineering Intern will apply generative AI to improve internal operations and engineering productivity by building AI agents, RAG pipelines, and automated workflows while collaborating with senior engineers and cross-functional teams.
-Cyber Security
-Property & Casualty Insurance
-Artificial Intelligence (AI)
-Fraud Detection
-Natural Language Processing
-Security
-Speech Recognition
-Comp. & Benefits
-H1B Sponsor Likely
-Insider Connection @Pindrop
-2 email credits available today
-Discover valuable connections within the company who might provide insights and potential referrals.
-Get 3x more responses when you reach out via email instead of LinkedIn.
-Beyond your network
-C
-Christine Kaszubski Aldrich
-Chief People Officer
-From your previous company
-from your School
-Find Any Email
-Responsibilities
-Explore and build proof-of-concept AI agents to automate complex internal engineering workflows, such as incident analysis or code review summaries
-Develop and optimize Retrieval-Augmented Generation (RAG) pipelines to enable "chat with your data" capabilities for internal technical documentation and runbooks
-Collaborate with cross-functional teams to identify operational bottlenecks and implement AI-driven fixes that improve efficiency and performance
-Test and document the use of emerging AI-assisted coding and monitoring tools to determine their viability for the broader engineering organization
-Participate in security-minded engineering, ensuring that automated workflows follow strict data hygiene and secrets management protocols
-Qualification
-Represents the skills you have
-Find out how your skills align with this job's requirements. If anything seems off, you can easily click on the tags to select or unselect skills to reflect your actual expertise.
+Are you a student or recent graduate passionate about Generative AI, Python, RAG, Prompt Engineering and Agentic AI? Here’s an exciting opportunity to gain hands-on experience working on real-world AI applications.
 
-Python
-Artificial Intelligence and Machine Learning
-Large Language Models (LLMs)
-Prompt Engineering
-Git
-Retrieval-Augmented Generation (RAG)
-Vector Databases
-AWS
-Google Cloud Platform (GCP)
-CI/CD
-Docker
-Required
-Pursuing a Bachelor's or Master's degree in Computer Science, Artificial Intelligence, or a related technical field
-Knowledge of Python for automation and data processing
-Demonstrated interest or project experience in AI/ML, specifically involving Large Language Models (LLMs) and prompt engineering
-Familiarity with Git workflows
-Preferred
-Hands-on experience building small ML pipelines or experimenting with vector databases and RAG frameworks
-Foundational experience with AWS or GCP services (e.g., Lambda, S3, or SageMaker)
-Exposure to CI/CD concepts or infrastructure-as-code (e.g., GitHub Actions, Docker)
-Benefits
-Hands-on experience in a modern environment
-Work alongside technical experts in security, AI, and voice intelligence
-Remote work
-Company
-Pindrop
-twitter
-linkedin
-crunchbase
-Glassdoor
-3.9
-company-logo
-Pindrop uses AI-based IVR authentication and anti-fraud solutions to increase efficiency in call centers and stop fraudulent transactions.
-Founded in 2011
-Atlanta, Georgia, USA
-201-500 employees
-http://pindrop.com
-H1B Sponsorship
-Pindrop has a track record of offering H1B sponsorships. Please note that this does not guarantee sponsorship for this specific role. Below presents additional info for your reference. (Data Powered by US Department of Labor)
-Distribution of Different Job Fields Receiving Sponsorship
-89%
-Represents job field similar to this job
-Engineering and Development
-Product Management
-Customer Service and Support
-Marketing
-Trends o
+💼 Position: AI Engineer Intern 🏢 Company: Bridge-it 📍 Location: Delhi, India 🌐 Work Mode: Remote 🕒 Employment: Full-Time 💰 Stipend: ₹12,000 – ₹18,000 per month
+
+🔥 What will you work on?
+As an AI Engineer Intern, you’ll get the opportunity to work with emerging AI technologies, including:
+
+🤖 Generative AI models for real-world applications 📊 Dataset creation, data crawling, scraping and processing 💬 Prompt Engineering 🔎 Retrieval-Augmented Generation (RAG) systems 🐍 Python-based REST APIs 🧠 LangGraph and Agentic AI workflows 🕸️ Knowledge graphs and AI agents ⚙️ Backend development using Django/FastAPI
+
+🎯 Skills they're looking for
+Candidates should have knowledge of:
+
+✅ Data Science & Generative AI ✅ Python ✅ Prompt Engineering ✅ RAG systems ✅ LangGraph ✅ REST APIs ✅ SQL & relational databases ✅ Data collection, cleaning and processing
+
+Good to have: ⭐ Machine Learning fundamentals ⭐ Agentic AI & context engineering ⭐ Agentic memory management ⭐ Knowledge graphs ⭐ Django/FastAPI ⭐ Elasticsearch & recommendation systems
+
+🎓 Eligibility
+Current students or recent graduates from Software Engineering, Data Science or related disciplines can apply.
+
+🌟 What will you gain?
+This internship offers an opportunity to:
+
+🚀 Work on real-world AI projects 🧠 Build practical Generative AI skills 💻 Strengthen your software engineering capabilities 🤝 Work with experienced mentors and innovators 📁 Build a strong portfolio in emerging technologies
+
+If you're serious about building a career in AI Engineering, this could be a valuable opportunity to get practical industry exposure.
+
+🔗 Apply here: Bridge-it Careers – AI Engineer Intern
+
+https://bridgeit.careers-page.com/jobs/3f6a5434-57fc-4755-bee2-986761a77377?utm_medium=free_job_board&
+
+📢 Students: Don't just learn AI—start building with it!
+
+#AIEngineer #AIInternship #GenerativeAI #ArtificialIntelligence #MachineLearning #RAG #PromptEngineering #AgenticAI #LangGraph #Python #DataScience #Internship #RemoteInternship #TechJobs #Freshers #EngineeringStudents #CareerOpportunity
