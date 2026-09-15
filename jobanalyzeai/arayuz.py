@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from main import analiz_et
 
 st.title("Hoşgeldin!")
 st.markdown(
@@ -12,9 +13,8 @@ st.markdown(
     """
 )
 
-uploaded_files = st.file_uploader(
-    "CV'ni Yükle (PDF)", accept_multiple_files=True, type="pdf"
-)
-for uploaded_file in uploaded_files:
-    cv = pd.read_pdf(uploaded_file)
-    st.write(cv)
+ilan_metni = st.text_area("İlan Metnini Buraya Yapıştır")
+
+if st.button("Analiz Et"):
+    sonuc = analiz_et(ilan_metni)
+    st.write(f"Puan = {sonuc}")
